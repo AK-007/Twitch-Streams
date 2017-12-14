@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Twitch Streams</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Bungee|Pangolin" rel="stylesheet">
+</head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="logic.js"></script>
+<body>
+	<div id="name">Twitch Streamers</div>
+	<div class="tab">
+		<button class="tablink" onclick="print(event,this.id)" id="defaultOpen">All</button>
+		<button class="tablink" onclick="print(event,this.id)" id="online">Online</button>
+		<button class="tablink" onclick="print(event,this.id)" id="offline">Offline</button>
+	</div>
+	<div class="jumbotron"></div>
+</body>
+</html>

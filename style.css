@@ -1,0 +1,89 @@
+html
+{
+	background-color: #E086D3;
+	text-align: center;
+	font-family: 'Pangolin', cursive;
+	font-size: 20px;
+	display: block;
+}
+#name
+{
+	font-family: 'Bungee', cursive;
+	font-size: 3em;
+	color: #F7EDE2;
+}
+.tab
+{	position: absolute;
+	left: 50%;
+	transform: translate(-50%,0%);
+	overflow: hidden;
+	background-color: #663D60;
+	border-radius: 50px;
+	width: 400px;
+}
+.tab button
+{
+	border: none;
+	outline: none;
+	border-radius: 40px;
+	cursor: pointer;
+    padding: 19px 26px;
+	background-color: inherit;
+	transition: 0.3s;
+	font-family: 'Pangolin', cursive;
+	font-size: 20px;
+	color: #E086D3;
+}
+.tab button:hover
+{
+	background-color: #7B4A74;
+}
+.tab button.active
+{
+	background-color: #FCF4FB;
+}
+a{
+	text-decoration: none;
+	color: #DA4167;
+	position: absolute;
+	left: 20%;
+}
+.span1
+{
+	position: absolute;
+	left: 35%;
+}
+.span2
+{
+	position: absolute;
+	left: 50%;
+}
+.jumbotron
+{
+	position: absolute;
+	background-color: #F7ECE1;
+	border-radius: 20px;
+	width: 90%;
+	left: 50%;
+	transform: translate(-50%,0%);
+	margin-top: 150px;
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+}
+img
+{	position: absolute;
+	max-width: 50px;
+    max-height: 50px;
+    border-radius: 50%;
+    border: white solid 2px;
+    left: 10%;
+}
+.span3
+{
+	position: absolute;
+	left: 70%;
+}
+.online,.offline
+{
+	padding: 39px;
+}
